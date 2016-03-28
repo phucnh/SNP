@@ -8,7 +8,7 @@ Sample SSP system.
 - gradle (`brew install gradle`)
 
 # Building
-Ensure that your java verison is 1.8
+Ensure that your java version is 1.8
 
 ```
 $ java -version
