@@ -5,7 +5,8 @@ Sample SSP system.
 
 # Prerequisite
 - JDK 1.8 (`brew cask install java`) 
-- gradle (`brew install gradle`)
+- Optional: 
+ - Gradle 2.12
 
 # Building
 Ensure that your java version is 1.8
@@ -18,11 +19,11 @@ java version "1.8.0_45"
 Build command
 
 ```
-$ gradle build
+$ ./gradlew build
 ```
 
 # Running
 
 ```
-gradle bootRun
+./gradlew bootRun
 ```
