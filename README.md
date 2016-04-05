@@ -6,7 +6,7 @@ Sample SSP system.
 # Prerequisite
 - JDK 1.8 (`brew cask install java`) 
 - Optional: 
- - Gradle 2.12
+ - Gradle 2.11
 
 # Building
 Ensure that your java version is 1.8
