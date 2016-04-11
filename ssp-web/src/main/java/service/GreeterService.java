@@ -1,4 +1,4 @@
-package snp.service;
+package ssp.service;
 
 import akka.actor.UntypedActor;
 

@@ -1,9 +1,9 @@
-package snp.web;
+package ssp.web;
 
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
-import snp.service.GreeterService;
+import ssp.service.GreeterService;
 
 public class Boot {
     public static void main(String[] args) throws Exception {
