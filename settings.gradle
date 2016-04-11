@@ -1,2 +1,5 @@
 rootProject.name = 'snp-ssp'
 
+include 'bid-generator'
+include 'ssp-web'
+include 'ssp-web-admin'
