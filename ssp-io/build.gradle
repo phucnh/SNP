@@ -15,7 +15,9 @@ repositories {
 }
 
 dependencies {
-    compile 'joda-time:joda-time:2.9.2',
+    compile 'org.threeten:threetenbp:1.3.1',
+            'com.fasterxml.jackson.core:jackson-databind:2.7.0',
+            'com.google.openrtb:openrtb-core:1.0.3',
             'org.scala-lang:scala-library:2.11.7',
             'com.fasterxml.jackson.core:jackson-databind:2.7.0'
     compile group: 'org.scala-lang', name: 'scala-library', version: '2.11.7'
