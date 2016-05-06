@@ -46,7 +46,7 @@ configure(applicationProjects()) {
     idea.module.scopes.PROVIDED.plus += [configurations.provided]
 
     dependencies {
-        compile 'joda-time:joda-time:2.9.2',
+        compile 'org.threeten:threetenbp:1.3.1',
                 'org.scala-lang:scala-library:2.11.7'
         testCompile('junit:junit:4.+') {
             exclude group: 'org.hamcrest'
